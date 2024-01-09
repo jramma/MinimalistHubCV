@@ -11,7 +11,7 @@ interface SiteConfig {
 export const siteConfig: SiteConfig = {
 	author: 'Jose Ramos', // Site author
 	title: 'Patrón de yate', // Site title.
-	description: 'Siempre he navegado y me encanta trabajar en el mar.', // Description to display in the meta tags
+	description: 'Marinero y capitán de barco.', // Description to display in the meta tags
 	lang: 'es',
 	ogLocale: 'es',
 	shareMessage: 'Comparte', // Message to share a post on social media
