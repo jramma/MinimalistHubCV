@@ -2,7 +2,7 @@
 	"name": "blog-template",
 	"type": "module",
 	"version": "1.1.0",
-	"description": "A template for creating a blog with Astro",
+	"description": "Mi web personal, Jose Ramos",
 	"author": "jramma",
 	"license": "GPL-3.0-only",
 	"repository": {
