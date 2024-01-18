@@ -1,90 +1,107 @@
 [
     {
         "height": 1188,
-        "width": 849
+        "width": 849,
+        "info": "La catedral del mar, Barcelona 2020"
     },
     {
         "height": 1530,
-        "width": 1020
+        "width": 1020,
+        "info": "Ramblas de Barcelona, 2020"
     },
     {
         "height": 985,
-        "width": 767
+        "width": 767,
+        "info": "El Born, Barcelona 2021"
     },
     {
         "height": 959,
-        "width": 767
+        "width": 767,
+        "info": "Trompetista"
     },
     {
         "height": 767,
-        "width": 475
+        "width": 475,
+        "info": "El Tividabo, Barcelona 2018"
     },
     {
         "height": 767,
-        "width": 959
+        "width": 959,
+        "info": "2020"
     },
     {
         "height": 740,
-        "width": 767
+        "width": 767,
+        "info": "Estación del Norte, Barcelona 2020"
     },
     {
         "height": 768,
-        "width": 621
+        "width": 621,
+        "info": "Forúm, Barcelona 2021"
     },
     {
         "height": 1613,
-        "width": 2016
+        "width": 2016,
+        "info": "Antiguo paseo del puerto de Alicante 2021"
     },
     {
         "height": 767,
-        "width": 959
+        "width": 959,
+        "info": "Alicante, 2021"
     },
     {
         "height": 767,
-        "width": 511
+        "width": 511,
+        "info": "Catedral de Florencia, 2019"
     },
     {
         "height": 511,
-        "width": 767
+        "width": 767,
+        "info": "Florencia 2019"
     },
     {
         "height": 767,
-        "width": 1151
+        "width": 1151,
+        "info": "Tivoli 2019"
     },
     {
         "height": 767,
-        "width": 1151
+        "width": 1151,
+        "info": "Tivoli 2019"
     },
     {
         "height": 511,
-        "width": 767
+        "width": 767,
+        "info": "Árbol muerto 2019"
     },
     {
         "height": 767,
-        "width": 1151
+        "width": 1151,
+        "info": "Roma, 2019"
     },
     {
         "height": 767,
-        "width": 1151
+        "width": 1151,
+        "info": "Roma, 2019"
     },
     {
         "height": 767,
-        "width": 1151
+        "width": 1151,
+        "info": "Cap de la Nau, 2021"
     },
     {
         "height": 767,
-        "width": 1457
+        "width": 1457,
+        "info": "Paseo de Gracia, Barcelona 2022"
     },
     {
         "height": 767,
-        "width": 1150
+        "width": 1150,
+        "info": "La Pedrera, Barcelona 2022"
     },
     {
         "height": 767,
-        "width": 1150
-    },
-    {
-        "height": 767,
-        "width": 1152
+        "width": 1150,
+        "info": "Barcelona 2023"
     }
 ]
