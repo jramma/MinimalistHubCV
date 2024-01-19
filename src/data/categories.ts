@@ -1,7 +1,7 @@
 // List of categories for blog posts
 export const CATEGORIES = [
 	'Filosofía',
-	'Programación',
-	'Fotografía',
+	'Coding',
+	'Foto',
 	'Naútica'
 ] as const
