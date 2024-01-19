@@ -23,14 +23,14 @@ rounded-lg items-center justify-center'
 					target='_blank'
 				>
 					<img
-						class='object-cover w-full h-auto'
+						class='w-full h-auto object-contain'
 						loading='lazy'
 						src={`/gallery/img1-w/img-${i + 1}.webp`}
 						alt=''
 					/>
 
 					<img
-						class='blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10 object-cover'
+						class='object-contain blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10'
 						loading='lazy'
 						src={`/gallery/img1-w/img-${i + 1}.webp`}
 						alt=''
@@ -55,14 +55,4 @@ rounded-lg items-center justify-center'
 		lightbox.init()
 	})
 </script>
-<style>
-	div img {
-		object-fit: contain;
-	}
-	.img_info {
-		text-align: center;
-	}
-	.enlace_div {
-		text-decoration: none;
-	}
-</style>
+
