@@ -1,0 +1,58 @@
+---
+import 'photoswipe/style.css'
+import photoInfo from '@/data/fabreinfo.json'
+const offset = 18
+---
+
+<div
+	class='grid grid-cols-2 max-w-6xl gap-12 mx-auto pswp-gallery
+rounded-lg items-center justify-center'
+	id='gallery'
+>
+	{
+		Array.from({ length: offset }).map((_, i) => {
+			const { height, width, info } = photoInfo[i]
+			return (<div>
+				<a
+					class='enlace_div'
+					id={`img-${i + 1}.jpg`}
+					class='hover:scale-105 transition-all relative duration-1000'
+					href={`/gallery/fabre/img-${i + 1}.jpg`}
+					data-pswp-width={width}
+					data-pswp-height={height}
+					target='_blank'
+				>
+					<img
+						class='w-full h-auto object-contain'
+						loading='lazy'
+						src={`/gallery/fabre/img-${i + 1}.jpg`}
+						alt=''
+					/>
+
+					<img
+						class='object-contain blur-md opacity-0 group-hover:opacity-100 absolute inset-0 transition contrast-150 -z-10'
+						loading='lazy'
+						src={`/gallery/fabre/img-${i + 1}.jpg`}
+						alt=''
+					/>
+				</a>
+                <p class='font-bold first-letter:uppercase text-center'>{info}</p></div>
+
+			)
+		})
+	}
+</div>
+<script>
+	import PhotoSwipeLightbox from 'photoswipe/lightbox'
+
+	document.addEventListener('astro:page-load', () => {
+		const lightbox = new PhotoSwipeLightbox({
+			gallery: '#gallery',
+			children: 'a',
+			pswpModule: () => import('photoswipe')
+		})
+
+		lightbox.init()
+	})
+</script>
+
