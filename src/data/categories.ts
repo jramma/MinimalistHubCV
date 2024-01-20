@@ -3,5 +3,5 @@ export const CATEGORIES = [
 	'Filosofía',
 	'Coding',
 	'Foto',
-	'Naútica'
+	'Nautica'
 ] as const
